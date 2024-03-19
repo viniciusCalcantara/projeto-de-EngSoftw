@@ -10,14 +10,11 @@
         
         <div class="col-lg-5 rounded mx-auto border pt-4">
             <div class="text-center col">
-            
-                <img
-                src="https://th.bing.com/th/id/Rd51d7c0fde6d96a31538a86cbd57f3c0?rik=%2fTJxRkU2V371QQ&riu=http%3a%2f%2ftechnologyend.com%2fwp-content%2fuploads%2f2015%2f11%2fwhy-shop-online.jpg&ehk=v1KiYT0i5U1ABCRueDSdLqnazh2BdlVD89Z4qXE0Kgs%3d&risl=&pid=ImgRaw" alt=""
-                class="" style="height: 150px;">
+                <img width="80" height="80" src="https://img.icons8.com/officel/80/user.png" alt="user"/>
             <!-- <hr> -->
             <hr>
             </div>
-            <h3 class="alert alert-success rounded-pill" style="text-align:center">Create an Account</h3>
+            <h3 style="text-align:center" style="color: orange;">Create an account</h3>
             <form action="/signup" method="POST">
                 
                 {% csrf_token %}
@@ -49,7 +46,7 @@
                     <input type="text" name="phone" 
                     id="" class="form-control form-control-sm"
                     value="{{values.phone}}"
-                    placeholder="9876543210"
+                   
                     >
                 </div>
                 <!-- email -->
@@ -57,7 +54,7 @@
                     <label for="">Email</label>
                     <input required type="email" name="email" id=""
                     value="{{values.email}}" 
-                    class=" form-control-sm form-control" placeholder="abc@gmail.com">
+                    class=" form-control-sm form-control">
                 </div>
 
 
